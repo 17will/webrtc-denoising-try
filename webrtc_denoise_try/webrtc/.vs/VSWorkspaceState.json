@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\modules",
+    "\\modules\\audio_processing",
+    "\\modules\\audio_processing\\aec",
+    "\\modules\\audio_processing\\ns\\include"
+  ],
+  "SelectedNode": "\\modules\\audio_processing\\aec\\aec_core.c",
+  "PreviewInSolutionExplorer": false
+}

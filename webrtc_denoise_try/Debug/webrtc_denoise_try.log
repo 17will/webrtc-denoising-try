@@ -1,0 +1,62 @@
+﻿  main.cpp
+d:\vstry\webrtc_denoise_try\webrtc_denoise_try\main.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(594): warning C4018: “>”: 有符号/无符号不匹配
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(529): note: 编译 类 模板 成员函数 "bool AudioFile<float>::decodeAiffFile(std::vector<uint8_t,std::allocator<_Ty>> &)" 时
+          with
+          [
+              _Ty=uint8_t
+          ]
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(402): note: 参见对正在编译的函数 模板 实例化“bool AudioFile<float>::decodeAiffFile(std::vector<uint8_t,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(1057): note: 参见对正在编译的 类 模板 实例化 "AudioFile<float>" 的引用
+d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(945): warning C4018: “<”: 有符号/无符号不匹配
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(944): note: 编译 类 模板 成员函数 "void AudioFile<float>::clearAudioBuffer(void)" 时
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(485): note: 参见对正在编译的函数 模板 实例化“void AudioFile<float>::clearAudioBuffer(void)”的引用
+d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(1002): warning C4018: “<”: 有符号/无符号不匹配
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(998): note: 编译 类 模板 成员函数 "int AudioFile<float>::getIndexOfString(std::vector<uint8_t,std::allocator<_Ty>> &,std::string)" 时
+          with
+          [
+              _Ty=uint8_t
+          ]
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(423): note: 参见对正在编译的函数 模板 实例化“int AudioFile<float>::getIndexOfString(std::vector<uint8_t,std::allocator<_Ty>> &,std::string)”的引用
+          with
+          [
+              _Ty=uint8_t
+          ]
+d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(1036): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(1034): note: 编译 类 模板 成员函数 "uint8_t AudioFile<float>::sampleToSingleByte(T)" 时
+          with
+          [
+              T=float
+          ]
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(741): note: 参见对正在编译的函数 模板 实例化“uint8_t AudioFile<float>::sampleToSingleByte(T)”的引用
+          with
+          [
+              T=float
+          ]
+d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(891): warning C4018: “<”: 有符号/无符号不匹配
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(890): note: 编译 类 模板 成员函数 "void AudioFile<float>::addStringToFileData(std::vector<uint8_t,std::allocator<_Ty>> &,std::string)" 时
+          with
+          [
+              _Ty=uint8_t
+          ]
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(705): note: 参见对正在编译的函数 模板 实例化“void AudioFile<float>::addStringToFileData(std::vector<uint8_t,std::allocator<_Ty>> &,std::string)”的引用
+          with
+          [
+              _Ty=uint8_t
+          ]
+d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(873): warning C4018: “<”: 有符号/无符号不匹配
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(868): note: 编译 类 模板 成员函数 "bool AudioFile<float>::writeDataToFile(std::vector<uint8_t,std::allocator<_Ty>> &,std::string)" 时
+          with
+          [
+              _Ty=uint8_t
+          ]
+  d:\vstry\webrtc_denoise_try\webrtc_denoise_try\audiofile.h(778): note: 参见对正在编译的函数 模板 实例化“bool AudioFile<float>::writeDataToFile(std::vector<uint8_t,std::allocator<_Ty>> &,std::string)”的引用
+          with
+          [
+              _Ty=uint8_t
+          ]
+  webrtc_denoise_try.vcxproj -> D:\vstry\webrtc_denoise_try\Debug\webrtc_denoise_try.exe

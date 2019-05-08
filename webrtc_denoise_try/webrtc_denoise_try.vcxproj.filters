@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\webrtc">
+      <UniqueIdentifier>{2eab77dd-da04-4a6a-9688-5845d2cfb68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc\common_audio">
+      <UniqueIdentifier>{f8a55a69-523f-452d-b40e-2739c2dbfab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc\modules">
+      <UniqueIdentifier>{504374ab-f48b-49c7-86af-9aa3b6e41615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc\common_audio\signal_processing">
+      <UniqueIdentifier>{bdda417a-cbe6-4917-82d0-c0cff459d4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc\common_audio\signal_processing\include">
+      <UniqueIdentifier>{b364763d-97de-4644-b2c5-4346801ddf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc\modules\audio_processing">
+      <UniqueIdentifier>{d86daf23-967f-4f12-a836-97ac24b3c1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc\modules\audio_processing\ns">
+      <UniqueIdentifier>{d812e2af-a4cd-4e02-9e78-7e55ae0f5d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\webrtc\modules\audio_processing\ns\include">
+      <UniqueIdentifier>{3e0c8c0c-4ff7-48e1-9617-9969a44f584e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc\common_audio\fft4g.c">
+      <Filter>源文件\webrtc\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc\modules\audio_processing\ns\noise_suppression.c">
+      <Filter>源文件\webrtc\modules\audio_processing\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="webrtc\modules\audio_processing\ns\ns_core.c">
+      <Filter>源文件\webrtc\modules\audio_processing\ns</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dr_wav.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefs.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc\common_audio\signal_processing\include\signal_processing_library.h">
+      <Filter>源文件\webrtc\common_audio\signal_processing\include</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc\common_audio\fft4g.h">
+      <Filter>源文件\webrtc\common_audio</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc\modules\audio_processing\ns\include\noise_suppression.h">
+      <Filter>源文件\webrtc\modules\audio_processing\ns\include</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc\modules\audio_processing\ns\defines.h">
+      <Filter>源文件\webrtc\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc\modules\audio_processing\ns\ns_core.h">
+      <Filter>源文件\webrtc\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="webrtc\modules\audio_processing\ns\windows_private.h">
+      <Filter>源文件\webrtc\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFile.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.pkf">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="ns_input0.pkf">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="1.wav">
+      <Filter>源文件</Filter>
+    </Media>
+    <Media Include="2.wav">
+      <Filter>源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
